@@ -2,7 +2,7 @@
 
 import com.example.Docker
 
-def call(String imageNmae) {
+def call(String imageName) {
     echo "Before calling buildDockerImage class function"
     return new Docker(this).buildDockerImage(imageName)
 }
